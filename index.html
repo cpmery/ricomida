@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricomida</title>
+    <!--BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--GOOGLE FONTS--> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!--CCS-->
+    <link rel="stylesheet" href="assets/css/style.css"></link>
+</head>
+
+<body>
+<!--NAV-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand rlogo mx-5" style="font-size: 2em;" href="#">Ricomida</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="container-fluid col-1">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#ini">Inicio</a>
+          </li>S
+          <li class="nav-item">
+            <a class="nav-link" href="#rec">Recetas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nos">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#con">Contacto</a>
+          </li>       
+        </ul>
+        </div>
+      </div>
+    </div>
+</nav>
+<!--HEADER-->
+<div id="ini" class="dx-flex justify-content-center mt-3">
+<header>
+    <div class="container my-3 row">
+    <div class="col-1"></div>
+        <div class="container col-md-6 d-flex align-items-center"><img class="col-12" src="assets/img/principal.jpg"></div>
+        <div class=" container col  mx-2">            
+                <div class="border-bottom border-secondary border-2"><h1 class="my-3">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1></div>
+                <h5 class="py-3">110 MIN / 6 A 8 PORCIONES</h5>
+                <div class="row">
+                    <button id="correo" type="button" class="col-4 btn btn-outline-secondary btn-sm" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar a tu correo" style="font-size: 0.7em;">Enviar por correo</button>
+                    <button type="button" class="col-4 mx-4 btn btn-outline-secondary btn-sm" data-bs-toggle="tooltip" data-bs-placement="right" title="Agrega esta receta a tus favoritos" style="font-size: 0.7em;">Añadir a favoritos</button>
+                </div>        
+        </div>
+    <div class="col-1"></div>
+    </div>
+
+</header>
+
+<!--SECCION CAROUSEL-->
+<div class="d-none d-md-block">
+    <div id="carouselExampleIndicators" class="carousel slide py-5 mx-5 border-bottom border-secondary border-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="rounded-circle mx-2 active" style="background-color: rgb(73, 73, 73); height:1em; width: 1em;" aria-current="true" aria-label="Slide 1" ></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="rounded-circle mx-2" style="background-color: rgb(73, 73, 73); height:1em; width: 1em;" aria-label="Slide 2" ></button>
+        </div>        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="gri_car">
+                    <img class="col-11" src="assets/img/slider-1.png">
+                    <img class="col-11" src="assets/img/slider-2.png">
+                    <img class="col-11" src="assets/img/slider-3.png">
+                    <img class="col-11" src="assets/img/slider-4.png">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="gri_car">
+                    <img class="col-11" src="assets/img/slider-5.png">
+                    <img class="col-11" src="assets/img/slider-6.png">                                            
+                    <img class="col-11" src="assets/img/slider-7.png">                                           
+                    <img class="col-11" src="assets/img/slider-8.png">
+                </div>                                           
+            </div>
+        </div>          
+    </div>
+</div>    
+<!--SECCION RECETA PPAL--> 
+<div id="rec" class="row mt-4 pb-5 mx-5 border-bottom border-secondary border-2">
+    <div class="col-sm-6">
+        <div class="border-bottom border-secondary border-2 mb-3 mt-3" style="display:inline-block"><h3>INGREDIENTES</h3></div>
+        <div class="my-3"><p>Masa</p></div>        
+            <p class="m-0 p-0">20 gr de levadura seca instantánea</p>
+            <p class="m-0 p-0">1 cucharadita de azúcar</p>
+            <p class="m-0 p-0">500 ml de agua tibia</p>
+            <p class="m-0 p-0">100 ml de aceite vegetal</p>
+            <p class="m-0 p-0">4 cucharadas de aceite de oliva</p>
+            <p class="m-0 p-0">65 gr de harina de maiz fina (chuchoca)</p>
+            <p class="m-0 p-0">2 cucharaditas de sal</p>
+            <p class="m-0 p-0">625 gr de harina</p>        
+        <div class="my-3"><p>Salsa</p></div>
+            <p class="m-0 p-0">5 cucharadas ded aceite de oliva</p>
+            <p class="m-0 p-0">1/2 cebolla picada en cubos finos</p>
+            <p class="m-0 p-0">2 cucharadas de sal</p>
+            <p class="m-0 p-0">3 cucharadas de orégano</p>
+            <p class="m-0 p-0">1 1/2 cucharadas de albahaca</p>
+            <p class="m-0 p-0">2 tarros de tomates en cubos al natural</p>
+            <p class="m-0 p-0">2 cucharaditas de azúcar</p>
+        <div class="my-3"><p>Relleno</p></div>
+            <p class="m-0 p-0">cebolla. en cubos</p>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="border-bottom border-secondary border-2 mb-5 mt-3" style="display:inline-block"><h3>PREPARACIÓN</h3></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit habitasse sapien nullam maecenas vulputate, cursus quisque ligula vehicula scelerisque. Vulputate sed donec nam condimentum dignissim sociis habitant augue dui pretium egestas mi arcu imperdiet aptent placerat, facilisi nullam eu nostra feugiat tempus taciti nec per tincidunt rutrum urna congue ut senectus. Ultricies eleifend ac dictumst est velit dui, habitant duis curabitur eget rutrum tristique, dictum platea aliquet fames iaculis.</p>
+        <p>Lectus etiam lacinia enim ad velit tristique dictumst cubilia imperdiet dis, sociosqu fames facilisi erat habitant porta nisi taciti pharetra proin sollicitudin, mollis ut ridiculus eu non rhoncus commodo at inceptos. Malesuada lobortis gravida sollicitudin mi turpis, sapien enim ad proin porttitor, non primis condimentum arcu. Etiam auctor conubia tellus sagittis dignissim rutrum ultricies, non fringilla augue hac nullam congue vulputate arcu, sem scelerisque senectus mi nisi cum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, facilisis accumsan inceptos pellentesque sodales at diam, condimentum conubia duis commodo feugiat vehicula. Dignissim posuere sociis per volutpat pulvinar magnis, tristique netus parturient sem non cubilia, scelerisque magna urna eu nunc. Ridiculus quis justo iaculis nisi duis taciti, faucibus maecenas luctus a montes molestie nostra, odio pulvinar blandit turpis fames. Accumsan vestibulum mi semper integer duis class libero est justo dapibus tincidunt dis iaculis quisque elementum morbi sociosqu fusce urna, malesuada potenti ultrices fringilla cum vehicula nulla dui lacinia nostra curae augue inceptos nisi turpis aliquet conubia.</p>
+        </div>
+</div>
+<!--SECCION RECETAS REL-->
+    <div id="nos" class="pb-5 ">
+        <div class="d-flex justify-content-center mt-3 mb-4"><h2>RECETAS RELACIONADAS</h2></div>
+        <div class="container-fluid d-flex justify-content-center row">
+            <!--RECETA 1-->
+            <div class='container-fluid col-sm-4 d-flex justify-content-center'>
+                <div class="card" >
+                    <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="tarjeta1 card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+                        <p class="contenido1 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        <!--RECETA 2-->
+            <div class='container-fluid col-sm-4 d-flex justify-content-center'>
+                <div class="card">
+                    <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="tarjeta2 card-title">TIRAMISÚ</h5>
+                      <p class="contenido2 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        <!--RECETA 3-->
+            <div class='container-fluid col-sm-4 d-flex justify-content-center'>
+                <div class="card">
+                    <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="tarjeta3 card-title">PLATEADA</h5>
+                        <p class="contenido3 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--SECCION SUSCRIBETE-->
+    <div id="con" class="container-fluid py-5 suscribete" style="background-color: rgb(211, 54, 54); color:white">
+        <div class="container-fluid d-flex justify-content-center"><h2>SUSCRÍBETE EN NUESTRO NEWSLETTER</h2></div>
+        <div class="container-fluid d-flex justify-content-center"><h4 class="px-2">y obtén las mejores recetas que tengamos en </h4><h4 class="rlogo"> Ricomida</h4></div>
+        <div class="container-fluid d-flex justify-content-center py-5"><button type="button" class="btn btn-outline-light col-2">Empezar</button></div>
+    </div>
+<!--FOOTER-->
+    <footer class="d-flex justify-content-center" style="color:white; background-color: black;">
+        <h2 class="rlogo py-4">Ricomida</h2>
+    </footer>
+
+
+
+<!--JQ-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!--BS--> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<!--JS-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
